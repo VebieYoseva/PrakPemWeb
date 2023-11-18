@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 200, 72);
+}
+
+.bingkai {
+    margin: 20px auto;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(235, 229, 192);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(224, 118, 224);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0e0d0d;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    border: 1px solid #424342;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(36, 35, 34);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #424342;
+    font-weight: bolder;
+}

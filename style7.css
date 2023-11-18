@@ -1,0 +1,80 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(225, 200, 72);
+}
+
+.bingkai {
+    margin: 20px auto;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(235, 229, 192);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(224, 118, 224);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0e0d0d;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+select,
+button {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 98%;
+  border-radius: 5px;
+  border: 1px solid #b8b7b7;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgb(36, 35, 34);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #424342;
+  font-weight: bolder;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid rgb(32, 32, 32);
+  background-color: rgb(244, 237, 186);
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: rgb(196, 191, 98);
+}
+
+.message {
+  background-color: rgb(225, 200, 72);
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: none;
+}
+
+p {
+  color: #333;
+}
